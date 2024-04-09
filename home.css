@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(23, 0, 67);
+}
+#heading{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+#container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+#btn1{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: 5px solid black;
+    font-size: 20px;
+}
+#btn1:hover{
+    cursor: grab;
+    background-color: black;
+    color: white;
+    transition: all 2s;
+    border: 5px solid white;
+}
+@media(max-width: 500px){
+    #img1{
+        width: 200px;
+        height: 200px;
+    }
+    #img2{
+        width: 200px;
+        height: 200px;
+    }
+    #heading{
+        font-size: 50px;
+    }
+}
